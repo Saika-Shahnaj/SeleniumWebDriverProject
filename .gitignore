@@ -1,67 +1,49 @@
-# .NET Core
-project.lock.json
-project.fragment.lock.json
+# Ignore build output directories
+bin/
+obj/
 artifacts/
 
-# Visual Studio files
-.vs/
-.vscode/
+# User-specific files
 *.user
 *.suo
 *.userosscache
 *.userprefs
-*.csproj.user
-*.csproj.vspscc
-*.vcxproj.*
-*.vbproj.*
-.ipch/
-*.aps
-*.ncb
-*.opendb
-*.opensdf
-*.sdf
-*.cachefile
-*.caches
-*.tlog/
+
+# Rider files
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+*.iml
+*.sln.iml
+
+# Visual Studio Code files
+.vscode/
+.vs/
+
+# Selenium driver files
+*.exe
+*.dll
+*.zip
+Driver/
+
+# Selenium logs
+logs/
 *.log
-*.lastbuildstate
-*.unsuccessfulbuild
-*.ilk
-*.iobj
-*.ipdb
-.obj/
-.bin/
-*.pdb
-*.pyc
-*.pyo
-*.rdb
-*.so
 
 # ASP.NET Core files
 *.db
 *.db-shm
 *.db-wal
-*.sql
 *.sqlite
 *.sqlite-shm
 *.sqlite-wal
-config/
-appsettings.json
-appsettings.Development.json
-appsettings.Production.json
 
 # Windows-specific files
 Thumbs.db
 desktop.ini
 $RECYCLE.BIN/
 ehthumbs.db
-
-# Package files
-*.nupkg
-*.snupkg
-
-# DotNetPublish folder
-DotNetPublish/
 
 # NuGet Packages
 *.nupkg
@@ -70,16 +52,19 @@ DotNetPublish/
 packages/
 .nuget/
 
-# Rider files
-.idea/
-.idea_modules/
-*.ipr
-*.iws
-*.iml
-.idea/
-*.sln.iml
+# DotNetPublish folder
+DotNetPublish/
 
-# Other files
-*.env
+# Package directories
+node_modules/
+bower_components/
+
+# Logs
 *.log
-build/
+
+# Environment files
+*.env
+
+# Additional files
+*.temp
+*.tmp
