@@ -1,0 +1,85 @@
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.userprefs
+*.csproj.user
+*.csproj.vspscc
+*.vcxproj.*
+*.vbproj.*
+.ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.caches
+*.tlog/
+*.log
+*.lastbuildstate
+*.unsuccessfulbuild
+*.ilk
+*.iobj
+*.ipdb
+.obj/
+.bin/
+*.pdb
+*.pyc
+*.pyo
+*.rdb
+*.so
+
+# ASP.NET Core files
+*.db
+*.db-shm
+*.db-wal
+*.sql
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+config/
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# Windows-specific files
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+ehthumbs.db
+
+# Package files
+*.nupkg
+*.snupkg
+
+# DotNetPublish folder
+DotNetPublish/
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+.nuget/
+
+# Rider files
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+*.iml
+.idea/
+*.sln.iml
+
+# Other files
+*.env
+*.log
+build/
