@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumWebDriverProject.TestCases
 {
-    internal class LocatorsTest
+    internal class LocatorsTests
     {
         [Test]
 
