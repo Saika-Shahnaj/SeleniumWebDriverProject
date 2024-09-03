@@ -33,12 +33,24 @@ namespace SeleniumWebDriverProject.TestCases
             Assert.That(idValidator, Is.EqualTo(true));
 
             //name selector
-            //var nameValidator = driver.FindElement(By.Name("generator")).Displayed;
+            //var nameValidator = driver.FindElement(By.Name("viewport")).Displayed;
             //Assert.That(nameValidator, Is.EqualTo(true));
 
             //Link text
             var linkTextValidator = driver.FindElement(By.LinkText("Documentation")).Displayed;
             Assert.That(linkTextValidator, Is.EqualTo(true));
+
+            //Partial link text
+            var partialLinkTextValidator = driver.FindElement(By.PartialLinkText("Doc")).Displayed;
+            Assert.That(partialLinkTextValidator, Is.EqualTo(true));
+
+            //Tag
+            var tagValidator = driver.FindElement(By.TagName("nav")).Displayed;
+            Assert.That(tagValidator, Is.EqualTo(true));
+
+            //XPath
+            var xpathValidator = driver.FindElement(By.XPath("//h1")).Displayed;
+            Assert.That(xpathValidator, Is.EqualTo(true));
 
             driver.Quit();
         }
