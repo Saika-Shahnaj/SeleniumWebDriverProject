@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace SeleniumWebDriverProject.TestCases
 {
-    internal class Class1
+    internal class SeleniumTests
     {
         [Test]
         public void FirstSeleniumTest()
